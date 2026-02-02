@@ -62,6 +62,130 @@
               Our goal is to grow our community and see true potentional in our gamers.
             </p>
           </section>
+
+          <section id="registration">
+            <h2>Register for a Tournament</h2>
+            <p>Fill out the form below to sign up. Choose your game, platform, and whether you’re joining solo or with a team.</p>
+          
+            <form action="#" method="post">
+              <fieldset>
+                <legend>Player Information</legend>
+          
+                <div>
+                  <label for="fullName">Full Name</label><br>
+                  <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                </div>
+          
+                <div>
+                  <label for="gamerTag">Gamer Tag / Username</label><br>
+                  <input type="text" id="gamerTag" name="gamerTag" placeholder="Your gamer tag" required>
+                </div>
+          
+                <div>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+          
+                <div>
+                  <label for="discord">Discord Username (optional)</label><br>
+                  <input type="text" id="discord" name="discord" placeholder="name#1234 or @name">
+                </div>
+              </fieldset>
+          
+              <fieldset>
+                <legend>Tournament Details</legend>
+          
+                <div>
+                  <label for="game">Select a Game</label><br>
+                  <select id="game" name="game" required>
+                    <option value="" selected disabled>Choose one</option>
+                    <option value="call-of-duty">Call of Duty</option>
+                    <option value="madden">Madden NFL</option>
+                    <option value="rainbow-six">Rainbow Six Siege</option>
+                  </select>
+                </div>
+          
+                <div>
+                  <label for="platform">Platform</label><br>
+                  <select id="platform" name="platform" required>
+                    <option value="" selected disabled>Select platform</option>
+                    <option value="pc">PC</option>
+                    <option value="ps5">PlayStation</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="switch">Nintendo Switch</option>
+                    <option value="crossplay">Crossplay</option>
+                  </select>
+                </div>
+          
+                <div>
+                  <p>Entry Type</p>
+                  <label>
+                    <input type="radio" name="entryType" value="solo" required>
+                    Solo
+                  </label>
+                  <label>
+                    <input type="radio" name="entryType" value="team" required>
+                    Team
+                  </label>
+                </div>
+          
+                <div>
+                  <label for="teamName">Team Name (if team)</label><br>
+                  <input type="text" id="teamName" name="teamName" placeholder="Team name">
+                </div>
+          
+                <div>
+                  <label for="skill">Skill Level</label><br>
+                  <select id="skill" name="skill" required>
+                    <option value="" selected disabled>Choose level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="pro">Pro</option>
+                  </select>
+                </div>
+          
+                <div>
+                  <label for="region">Region</label><br>
+                  <select id="region" name="region" required>
+                    <option value="" selected disabled>Select region</option>
+                    <option value="na">North America</option>
+                    <option value="eu">Europe</option>
+                    <option value="sa">South America</option>
+                    <option value="asia">Asia</option>
+                    <option value="oce">Oceania</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </fieldset>
+          
+              <fieldset>
+                <legend>Create Account</legend>
+          
+                <div>
+                  <label for="password">Password</label><br>
+                  <input type="password" id="password" name="password" placeholder="Create a password" minlength="8" required>
+                </div>
+          
+                <div>
+                  <label for="confirmPassword">Confirm Password</label><br>
+                  <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" minlength="8" required>
+                </div>
+              </fieldset>
+          
+              <div>
+                <label>
+                  <input type="checkbox" name="terms" required>
+                  I agree to the Terms & Conditions
+                </label>
+              </div>
+          
+              <div>
+                <button type="submit">Register Now</button>
+              </div>
+            </form>
+          </section>
+          
           
 </body>
 </html>
