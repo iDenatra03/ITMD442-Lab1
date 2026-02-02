@@ -234,6 +234,127 @@ main section div img:hover {
     line-height: 1.8;
     color: rgba(234, 242, 255, 0.85);
 }
+
+#registration {
+    background: radial-gradient(circle at top, #0b1020, #05060f);
+    padding: 90px 20px;
+    color: #eaf2ff;
+}
+  
+#registration h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  
+    text-shadow:
+      0 0 12px rgba(0, 245, 255, 0.35),
+      0 0 32px rgba(124, 58, 237, 0.35);
+}
+  
+#registration > p {
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 50px;
+    color: rgba(234, 242, 255, 0.85);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+#registration form {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #0f172a, #020617);
+    padding: 40px 34px;
+    border-radius: 22px;
+  
+    border: 1px solid rgba(0, 245, 255, 0.2);
+  
+    box-shadow:
+      0 0 30px rgba(0, 245, 255, 0.15),
+      0 25px 60px rgba(0, 0, 0, 0.7);
+}
+  
+#registration fieldset {
+    border: none;
+    margin-bottom: 36px;
+    padding: 0;
+}
+  
+#registration legend {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    color: #eaf2ff;
+    letter-spacing: 1px;
+}
+  
+#registration fieldset > div {
+    margin-bottom: 18px;
+}
+  
+#registration label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: rgba(234, 242, 255, 0.9);
+}
+  
+#registration input,
+#registration select,
+#registration textarea {
+    width: 100%;
+    margin-top: 6px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(15, 23, 42, 0.9);
+    color: #eaf2ff;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+  
+#registration input:focus,
+#registration select:focus,
+#registration textarea:focus {
+    border-color: #00f5ff;
+    box-shadow: 0 0 0 3px rgba(0, 245, 255, 0.25);
+}
+  
+#registration input[type="radio"],
+#registration input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+  
+#registration fieldset div p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+  
+#registration button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 14px 18px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #00f5ff, #7c3aed);
+    color: #05060f;
+    box-shadow:
+      0 0 22px rgba(0, 245, 255, 0.4),
+      0 20px 40px rgba(0, 0, 0, 0.7);
+    transition: transform 0.15s ease, filter 0.2s ease;
+}
+  
+#registration button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.08);
+}
+  
   
   
   
