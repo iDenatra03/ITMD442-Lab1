@@ -147,7 +147,9 @@ main section div img:hover {
 .games {
     background: radial-gradient(circle at top, #0b1020, #05060f);
     padding: 90px 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .games-title {
