@@ -211,15 +211,15 @@ main section div img:hover {
     background: linear-gradient(180deg, #05060f, #0b1020);
     padding: 90px 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   
 #about h2 {
     font-size: 2.4rem;
     margin-bottom: 24px;
     text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     letter-spacing: 2px;
     color: #eaf2ff;
     text-shadow:
