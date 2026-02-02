@@ -151,9 +151,9 @@ main section div img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  .games-title {
+.games-title {
     font-size: 2.6rem;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -164,7 +164,7 @@ main section div img:hover {
       0 0 32px rgba(124, 58, 237, 0.35);
 }
   
-  .game-grid {
+.game-grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -217,6 +217,9 @@ main section div img:hover {
     font-size: 2.4rem;
     margin-bottom: 24px;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     letter-spacing: 2px;
     color: #eaf2ff;
     text-shadow:
