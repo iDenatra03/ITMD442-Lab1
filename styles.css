@@ -148,61 +148,60 @@ main section div img:hover {
     background: radial-gradient(circle at top, #0b1020, #05060f);
     padding: 90px 20px;
     text-align: center;
-}
+  }
   
-.games-title {
+  .games-title {
     font-size: 2.6rem;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #eaf2ff;
     text-shadow:
       0 0 12px rgba(0, 245, 255, 0.35),
       0 0 32px rgba(124, 58, 237, 0.35);
 }
   
-.game-grid {
-    max-width: 1100px;
+  .game-grid {
+    max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 40px;
 }
   
 .game-card {
     background: linear-gradient(180deg, #0f172a, #020617);
-    border-radius: 20px;
-    padding: 36px 26px;
-    border: 1px solid rgba(0, 245, 255, 0.15);
+    border-radius: 22px;
+    padding: 40px 30px;
+    border: 1px solid rgba(0, 245, 255, 0.25);
     box-shadow:
-      0 0 22px rgba(0, 245, 255, 0.15),
-      0 15px 40px rgba(0, 0, 0, 0.6);
+      0 0 25px rgba(0, 245, 255, 0.18),
+      0 20px 50px rgba(0, 0, 0, 0.65);
     transition:
-      transform 0.25s ease,
-      box-shadow 0.25s ease,
-      border-color 0.25s ease;
+      transform 0.3s ease,
+      box-shadow 0.3s ease,
+      border-color 0.3s ease;
 }
   
-.game-card:hover {
-    transform: translateY(-10px);
-    border-color: rgba(124, 58, 237, 0.55);
+  .game-card:hover {
+    transform: translateY(-12px);
+    border-color: rgba(124, 58, 237, 0.6);
     box-shadow:
-      0 0 35px rgba(124, 58, 237, 0.55),
-      0 25px 60px rgba(0, 0, 0, 0.8);
+      0 0 45px rgba(124, 58, 237, 0.6),
+      0 30px 70px rgba(0, 0, 0, 0.8);
 }
   
 .game-card h3 {
-    font-size: 1.6rem;
-    margin-bottom: 14px;
+    font-size: 1.7rem;
+    margin-bottom: 16px;
     color: #eaf2ff;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
 }
   
 .game-card p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: rgba(234, 242, 255, 0.85);
-    line-height: 1.6;
+    line-height: 1.7;
 }
-  
   
   
